@@ -86,3 +86,15 @@ PyQt6
 
 Support has been added for PyQt6. If it is installed, it will be used instead of
 PySide6, PyQt5 or PySide2.
+
+GraphicsMagick
+^^^^^^^^^^^^^^
+
+Support has been added for GraphicsMagick_ as an alternative to ImageMagick_.  This
+includes GraphicsMagick as a viewer (cf.
+:py:class:`PIL.ImageShow.GmDisplayViewer <PIL.ImageShow.UnixViewer.GmDisplayViewer>`)
+and the capability to run the test suite with GraphicsMagick instead of ImageMagick.
+If both are installed, the test suite prefers ImageMagick over GraphicsMagick.
+
+.. _GraphicsMagick: http://www.graphicsmagick.org/
+.. _ImageMagick: https://imagemagick.org/
